@@ -1,0 +1,8 @@
+<template name="public">
+  {{>bertAlert}}
+  {{>header}}
+  <div class="container">
+    {{> Template.dynamic template=yield}}
+    <div id="log"></div>
+  </div>
+</template>
